@@ -7,7 +7,7 @@ const font = Ma_Shan_Zheng({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-mashan",
-  display: "block",
+  display: "swap",
   preload: true
 });
 
