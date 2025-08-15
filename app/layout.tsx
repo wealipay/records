@@ -21,9 +21,7 @@ export const metadata: Metadata = {
   keywords: ["开发记录"],
   icons: {
     icon: "/favicon.ico"
-  },
-  viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no',
-  
+  }
 };
 
 export default function RootLayout({
@@ -33,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN" className={font.className}>
-      <body className="h-dvh h-full">{children}</body>
+      <body className="h-screen">{children}</body>
     </html>
   );
 }
