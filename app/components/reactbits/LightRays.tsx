@@ -4,7 +4,7 @@ import { Renderer, Program, Triangle, Mesh } from "ogl";
 
 const DEFAULT_COLOR = "#ffffff";
 
-const hexToRgb = (hex) => {
+const hexToRgb = (hex:string) => {
   const m = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
   return m
     ? [
