@@ -14,12 +14,13 @@ const font = Ma_Shan_Zheng({
 export const metadata: Metadata = {
   title: {
     default: "开发记录",
-    template: "%s|开发记录"
+    template: "%s|开发记录",
+    absolute:""
   },
   description: "记录网站开发的流程",
-  keywords:["开发记录"],
-  icons:{
-    icon:"/favicon.ico"
+  keywords: ["开发记录"],
+  icons: {
+    icon: "/favicon.ico"
   }
 };
 
