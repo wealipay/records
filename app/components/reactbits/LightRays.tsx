@@ -2,6 +2,51 @@
 import { useRef, useEffect, useState } from "react";
 import { Renderer, Program, Triangle, Mesh } from "ogl";
 
+import { Uniforms } from 'ogl'; // 导入 ogl 内置的 Uniforms 类型（若有）
+
+// 若 ogl 无内置类型，手动定义
+interface RayUniforms {
+  iTime: { value: number }; // float
+  iResolution: { value: [number, number] }; // vec2
+  rayPos: { value: [number, number] }; // vec2
+  rayDir: { value: [number, number] }; // vec2
+  raysColor: { value: [number, number, number] }; // vec3
+  raysSpeed: { value: number }; // float
+  lightSpread: { value: number }; // float
+  rayLength: { value: number }; // float
+  pulsating: { value: number }; // float（0 或 1 表示布尔值）
+  fadeDistance: { value: number }; // float
+  saturation: { value: number }; // float
+  mousePos: { value: [number, number] }; // vec2
+  mouseInfluence: { value: number }; // float
+  noiseAmount: { value: number }; // float
+  distortion: { value: number }; // float
+}
+
+const uniforms: RayUniforms = {
+  iTime: { value: 0 },
+  iResolution: { value: [1, 1] },
+  rayPos: { value: [0, 0] },
+  rayDir: { value: [0, 1] },
+  raysColor: { value: hexToRgb(raysColor) },
+  raysSpeed: { value: raysSpeed },
+  lightSpread: { value: lightSpread },
+  rayLength: { value: rayLength },
+  pulsating: { value: pulsating ? 1.0 : 0.0 },
+  fadeDistance: { value: fadeDistance },
+  saturation: { value: saturation },
+  mousePos: { value: [0.5, 0.5] },
+  mouseInfluence: { value: mouseInfluence },
+  noiseAmount: { value: noiseAmount },
+  distortion: { value: distortion }
+};
+const program = new Program(gl, {
+  vertex: vert,
+  fragment: frag,
+  uniforms: uniforms as unknown as Uniforms // 若有类型冲突，用 as 断言适配 ogl 要求
+});
+
+
 export type RaysOrigin =
   | "top-center"
   | "top-left"
