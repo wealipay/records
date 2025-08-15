@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN" className={font.className}>
-      <body className="w-full h-full">{children}</body>
+      <body className="h-dvh h-full">{children}</body>
     </html>
   );
 }
