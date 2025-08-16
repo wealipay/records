@@ -4,13 +4,13 @@ export default function Home() {
       <LightRays
         raysOrigin="top-center"
         raysColor="red"
-        raysSpeed={1.5}
-        lightSpread={1.4}
+        raysSpeed={1}
+        lightSpread={0.5}
         rayLength={3}
         followMouse={true}
-        mouseInfluence={0.6}
-        noiseAmount={0.35}
-        distortion={0.05}
+        mouseInfluence={1}
+        noiseAmount={0}
+        distortion={0}
         className="custom-rays"
       />
   );
