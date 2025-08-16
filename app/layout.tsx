@@ -32,15 +32,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN" className={font.className}>
-      <body>
-        <Head>
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"
-          />
-        </Head>
-        {children}
-      </body>
+      <Head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"
+        />
+      </Head>
+      <body>{children}ggg</body>
     </html>
   );
 }
