@@ -1,7 +1,6 @@
 import LightRays from "./components/reactbits/LightRays";
 export default function Home() {
   return (
-    <div style={{ width: "100%", height: "600px", position: "relative" }}>
       <LightRays
         raysOrigin="top-center"
         raysColor="#00ffff"
@@ -14,6 +13,5 @@ export default function Home() {
         distortion={0.05}
         className="custom-rays"
       />
-    </div>
   );
 }
