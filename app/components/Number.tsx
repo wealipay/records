@@ -7,9 +7,9 @@ export default function Number() {
       colors={["#ff0000", "#4079ff", "#fff", "#4079ff", "#ff0000"]}
       animationSpeed={2}
       showBorder={true}
-      className="animate-gradient bg-red-700"
+      className="animate-gradient"
     >
-      <span className="font-bold text-2xl">853688884</span>
+      <span className="font-bold p-10 text-2xl">853688884</span>
     </GradientText>
   );
 }
