@@ -1,0 +1,4 @@
+* {
+  @apply leading-none;
+  @apply align-top;
+}
