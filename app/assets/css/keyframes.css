@@ -33,7 +33,7 @@
     opacity: 0;
   }
 }
-.animate-starBoder {
+.animate-starBorder {
   animation: starBorderStart linear infinite alternate;
-  animation:starBorderStart linear infinite alternate;
+  animation:starBorderEnd linear infinite alternate;
 }
