@@ -1,4 +1,6 @@
 import LightRays from "./components/reactbits/LightRays";
+import Home from "./components/Home";
+
 export default function Home() {
   return (
     <div>
@@ -12,9 +14,9 @@ export default function Home() {
         mouseInfluence={1}
         noiseAmount={0}
         distortion={0}
-        className="absolute mt-48"
+        className=""
       />
-      下一步五王
+      <Home/>
     </div>
   );
 }
