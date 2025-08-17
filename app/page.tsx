@@ -3,7 +3,7 @@ import LightRays from "./components/reactbits/LightRays";
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative h-1/2">
       <LightRays
         raysOrigin="top-center"
         raysColor="#ff0000"
