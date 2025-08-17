@@ -14,7 +14,7 @@ export default function Home() {
         distortion={0}
         className="custom-rays"
       />
-      下一步五
+      下一步五王
     </div>
   );
 }
