@@ -7,7 +7,7 @@ export default function Number() {
       colors={["red", "#4079ff", "white", "#4079ff", "red"]}
       animationSpeed={3}
       showBorder={true}
-      className="custom-class"
+      className="p-10"
     >
       853688884
     </GradientText>
