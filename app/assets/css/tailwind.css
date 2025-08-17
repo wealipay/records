@@ -11,5 +11,5 @@
   }
 }
 .animate-gradient {
-  animation: gradient 3s ease infinite normal; /* 应用动画 */
+  animation: gradient 3s ease infinite; /* 应用动画 */
 }
