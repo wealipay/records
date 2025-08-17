@@ -1,7 +1,3 @@
-* {
-  @apply leading-none;
-  @apply align-top;
-  margin: 0;
-  padding:0;
+body {
+  background: black;
 }
-body{background: black;}
