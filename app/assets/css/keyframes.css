@@ -13,7 +13,7 @@
   animation: gradientText 2s ease infinite; /* 应用动画 */
 }
 
-@keyframes starBorderStart {
+@keyframes star-movement-bottom {
   0% {
     transform: translate(0%, 0%);
     opacity: 1;
@@ -23,7 +23,8 @@
     opacity: 0;
   }
 }
-@keyframes starBorderEnd {
+
+@keyframes star-movement-top {
   0% {
     transform: translate(0%, 0%);
     opacity: 1;
@@ -31,11 +32,11 @@
   100% {
     transform: translate(100%, 0%);
     opacity: 0;
-  }
+  }}
+
+.border-gradient-bottom{
+  animation: star-movement-bottom linear infinite alternate;
 }
-.animate-starBorder {
-  animation: starBorderStart 3s linear infinite alternate;
-}
-.animate-starBorder1 {
-  animation:starBorderEnd 3s linear infinite alternate;
+.border-gradient-top{
+  animation: star-movement-top linear infinite alternate;
 }
