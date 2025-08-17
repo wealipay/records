@@ -2,7 +2,7 @@ import GradientText from "./reactbits/GradientText";
 
 export default function Number() {
   return (
-    <div className="flex h-1/3 bg-red-600 flex-col justify-around items-stretch">
+    <div className="absolute inset-0 flex h-1/3 bg-red-600 flex-col justify-around items-stretch">
       <span>在支付宝首页搜索</span>
       <GradientText
         colors={["#ff0000", "#4079ff", "#fff", "#4079ff", "#ff0000"]}
