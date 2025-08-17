@@ -1,5 +1,5 @@
+import Number from './components/Number';
 import LightRays from "./components/reactbits/LightRays";
-import Home from "./components/Home";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         distortion={0}
         className=""
       />
-      <Home/>
+      <Number />
     </div>
   );
 }
