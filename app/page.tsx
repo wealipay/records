@@ -1,4 +1,4 @@
-import Number from './components/Number';
+import Number from "./components/Number";
 import LightRays from "./components/reactbits/LightRays";
 
 export default function Home() {
