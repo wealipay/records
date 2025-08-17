@@ -12,7 +12,7 @@ export default function Home() {
         mouseInfluence={1}
         noiseAmount={0}
         distortion={0}
-        className="absolute"
+        className="absolute mt-48"
       />
       下一步五王
     </div>
