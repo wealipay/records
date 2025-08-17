@@ -9,7 +9,7 @@ export default function Number() {
       showBorder={true}
       className="custom-class"
     >
-      Add a splash of color!五王总
+      Add a splash of color
     </GradientText>
   );
 }
