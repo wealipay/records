@@ -4,12 +4,12 @@ import GradientText from "./reactbits/GradientText";
 export default function Number() {
   return (
     <GradientText
-      colors={["#ff0000", "#4079ff", "#fff", "#4079ff", "#ff0000"]}
+      colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
       animationSpeed={3}
       showBorder={false}
-      className="m-10"
+      className="custom-class"
     >
-      853688884王
+      Add a splash of color!
     </GradientText>
   );
 }
