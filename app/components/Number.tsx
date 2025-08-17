@@ -7,7 +7,7 @@ export default function Number() {
         colors={["#ff0000", "#4079ff", "#fff", "#4079ff", "#ff0000"]}
         animationSpeed={2}
         showBorder={false}
-        className="animate-gradient text-center"
+        className="animate-gradient text-center text-2xl"
       >
         在支付宝首页搜索 <br />
         853688884<br />
