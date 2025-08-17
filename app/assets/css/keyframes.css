@@ -1,0 +1,39 @@
+@keyframes gradientText {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.animate-gradient {
+  animation: gradientText 2s ease infinite; /* 应用动画 */
+}
+
+@keyframes starBorderStart {
+  0% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-100%, 0%);
+    opacity: 0;
+  }
+}
+@keyframes starBorderEnd {
+  0% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100%, 0%);
+    opacity: 0;
+  }
+}
+.animate-starBoder {
+  animation: starBorderStart linear infinite alternate;
+  animation:starBorderStart linear infinite alternate;
+}
