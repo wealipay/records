@@ -9,7 +9,7 @@ export default function Number() {
       showBorder={true}
       className="animate-gradient"
     >
-      <span className="m-24 text-2xl">853688884</span>
+      853688884
     </GradientText>
   );
 }
