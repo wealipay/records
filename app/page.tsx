@@ -3,7 +3,7 @@ export default function Home() {
   return (
       <LightRays
         raysOrigin="top-center"
-        raysColor="red"
+        raysColor="#fff"
         raysSpeed={1}
         lightSpread={0.5}
         rayLength={3}
