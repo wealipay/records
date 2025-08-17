@@ -1,6 +1,7 @@
 import LightRays from "./components/reactbits/LightRays";
 export default function Home() {
   return (
+    <div className="w-full h-full">
       <LightRays
         raysOrigin="top-center"
         raysColor="#fff"
@@ -12,6 +13,7 @@ export default function Home() {
         noiseAmount={0}
         distortion={0}
         className="custom-rays"
-      />
+      />五
+    </div>
   );
 }
