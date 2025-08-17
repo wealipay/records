@@ -1,2 +1,3 @@
 @import "./assets/css/resets.css";
 @import "./assets/css/tailwind.css";
+body{background: red;}
