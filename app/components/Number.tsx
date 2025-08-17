@@ -7,9 +7,9 @@ export default function Number() {
       colors={["#ff0000", "#4079ff", "#fff", "#4079ff", "#ff0000"]}
       animationSpeed={2}
       showBorder={true}
-      className="animate-gradient"
+      className="animate-gradient p-10"
     >
-      Add a splash of color
+      853688884
     </GradientText>
   );
 }
