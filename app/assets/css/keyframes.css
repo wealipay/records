@@ -34,6 +34,6 @@
   }
 }
 .animate-starBorder {
-  animation: starBorderStart linear infinite alternate;
-  animation:starBorderEnd linear infinite alternate;
+  animation: starBorderStart 3s linear infinite alternate;
+  animation:starBorderEnd 3s linear infinite alternate;
 }
