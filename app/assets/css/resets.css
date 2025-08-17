@@ -1,7 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  @apply leading-none;
+  @apply align-top;
 }
-body {
+html,body,#app {
+  height:100vh;
   background: black;
 }
