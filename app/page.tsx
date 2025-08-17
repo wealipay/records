@@ -2,10 +2,9 @@ import LightRays from "./components/reactbits/LightRays";
 export default function Home() {
   return (
     <div>
-       
-<LightRays
+      <LightRays
         raysOrigin="top-center"
-        raysColor="#fff"
+        raysColor="#ff0000"
         raysSpeed={1}
         lightSpread={0.5}
         rayLength={1}
@@ -15,7 +14,7 @@ export default function Home() {
         distortion={0}
         className="custom-rays"
       />
-      下一步
+      下一步五
     </div>
   );
 }
