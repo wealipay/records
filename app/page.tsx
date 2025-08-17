@@ -13,7 +13,7 @@ export default function Home() {
         noiseAmount={0}
         distortion={0}
         className="custom-rays"
-      />五
+      />五hhhhnnn
     </div>
   );
 }
