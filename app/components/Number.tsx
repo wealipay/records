@@ -4,9 +4,9 @@ import GradientText from "./reactbits/GradientText";
 export default function Number() {
   return (
     <GradientText
-      colors={["red", "#4079ff", "white", "#4079ff", "red"]}
+      colors={["#ff0000", "#4079ff", "#fff", "#4079ff", "#ff0000"]}
       animationSpeed={3}
-      showBorder={true}
+      showBorder={false}
       className="m-10"
     >
       853688884王
