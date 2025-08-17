@@ -7,12 +7,12 @@ export default function Home() {
         raysColor="#ff0000"
         raysSpeed={1}
         lightSpread={0.5}
-        rayLength={1}
+        rayLength={3}
         followMouse={true}
         mouseInfluence={1}
         noiseAmount={0}
         distortion={0}
-        className="custom-rays"
+        className="absolute"
       />
       下一步五王
     </div>
