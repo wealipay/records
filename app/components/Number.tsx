@@ -1,13 +1,15 @@
 "use client";
-import GradientText from "./components/reactbits/GradientText";
+import GradientText from "./reactbits/GradientText";
 
 export default function Number() {
-  return <GradientText
-  colors={["red", "#4079ff", "white", "#4079ff", "red"]}
-  animationSpeed={3}
-  showBorder={true}
-  className="custom-class"
->
-  853688884
-</GradientText>
+  return (
+    <GradientText
+      colors={["red", "#4079ff", "white", "#4079ff", "red"]}
+      animationSpeed={3}
+      showBorder={true}
+      className="custom-class"
+    >
+      853688884
+    </GradientText>
+  );
 }
