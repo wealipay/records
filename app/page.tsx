@@ -1,15 +1,20 @@
-import StarBorder from './components/reactbits/StarBorder';
+import LightRays from './components/reactbits/LightRays';
+import StarBorder from "./components/reactbits/StarBorder";
 import Number from "./components/Number";
-import LightRays from "./components/reactbits/LightRays";
 
 export default function Home() {
   return (
     <div className="relative h-1/3">
-      <StarBorder as="button" className="animate-starBorder" color="cyan" speed="5s">
+      <StarBorder
+        as="button"
+        className="animate-starBorder animate-starBorder1"
+        color="cyan"
+        speed="5s"
+      >
         联系
       </StarBorder>
 
-      <LightRays
+      <LightRays 
         raysOrigin="top-center"
         raysColor="#ff0000"
         raysSpeed={1}
