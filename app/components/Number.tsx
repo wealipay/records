@@ -12,7 +12,7 @@ export default function Number() {
       <br /> <br />
       853688884
       <br /> <br />
-      即可领红包
+      即可领红包b
     </GradientText>
   );
 }

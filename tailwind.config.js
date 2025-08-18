@@ -9,7 +9,7 @@ module.exports = {
          },
        },
        animation: {
-         gradient: 'gradient 8s linear infinite'
+         gradient: 'gradient 88s linear infinite'
        },
      },
    },
