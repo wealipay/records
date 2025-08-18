@@ -20,8 +20,7 @@ export default function Home() {
 
       <Number />
       <StarBorder as="button" className="m-48" color="white" speed="5s">
-           联系球    五<br />
-             一点点    <br/>一点
+           联系球gghhhhbbbb五
       </StarBorder>
     </div>
   );
