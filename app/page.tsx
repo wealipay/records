@@ -8,7 +8,7 @@ export default function Home() {
       <StarBorder
         as="button"
         className="animate-star-movement-top animate-star-movement-bottom "
-        color="cyan"
+        color="white"
         speed="5s"
       >
         联系五也睡了没用法克制高德
