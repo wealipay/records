@@ -11,7 +11,7 @@ export default function Home() {
         color="cyan"
         speed="5s"
       >
-        联系
+        联系五也睡了没用法克制高德
       </StarBorder>
 
       <LightRays
