@@ -5,8 +5,6 @@ import Number from "./components/Number";
 export default function Home() {
   return (
     <div className="relative h-1/3">
-
-
       <LightRays
         raysOrigin="top-center"
         raysColor="#ff0000"
@@ -21,13 +19,13 @@ export default function Home() {
       />
 
       <Number />
-            <StarBorder
+      <StarBorder
         as="button"
         className="animate-top animate-bottom "
         color="white"
         speed="5s"
       >
-        联系
+        联系球
       </StarBorder>
     </div>
   );
