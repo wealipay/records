@@ -1,4 +1,8 @@
 module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}", // 匹配 App Router 下的文件
+    "./components/**/*.{js,ts,jsx,tsx,mdx}", // 匹配组件文件
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",],
    theme: {
      extend: {
        animation: {
