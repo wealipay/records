@@ -1,4 +1,4 @@
-import StarBorder from "./components/reactbits/StarBorder";
+import StarBorder from './components/reactbits/StarBorder';
 import LightRays from "./components/reactbits/LightRays";
 import Number from "./components/Number";
 
@@ -20,7 +20,7 @@ export default function Home() {
 
       <Number />
       <StarBorder as="button" className="m-48" color="white" speed="5s">
-           联系球gghhhhbbbb五
+        联系球gghhhhbbbb五
       </StarBorder>
     </div>
   );
