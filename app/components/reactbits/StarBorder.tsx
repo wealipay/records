@@ -7,7 +7,7 @@ type StarBorderProps<T extends React.ElementType> =
     children?: React.ReactNode;
     color?: string;
     speed?: React.CSSProperties["animationDuration"];
-    thickness?: string;
+    thickness?: number;
   };
 
 const StarBorder = <T extends React.ElementType = "button">({
@@ -15,7 +15,7 @@ const StarBorder = <T extends React.ElementType = "button">({
   className = "",
   color = "white",
   speed = "6s",
-  thickness = "3px",
+  thickness = 1,
   children,
   ...rest
 }: StarBorderProps<T>) => {
