@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <div className="relative h-1/3">
       <StarBorder
-        as="button"
+        as="div"
         className="animate-star-movement-top animate-star-movement-bottom "
         color="white"
         speed="5s"
       >
-        联系五也睡了没用法克制高德
+        联系
       </StarBorder>
 
       <LightRays
