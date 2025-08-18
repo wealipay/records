@@ -9,7 +9,7 @@ export default function Home() {
         as="button"
         className="animate-top animate-bottom "
         color="white"
-        thickness="3px"
+        thickness="3"
         speed="5s"
       >
         联系
