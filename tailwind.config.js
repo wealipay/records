@@ -18,8 +18,8 @@ module.exports = {
        },
        animation: {
          gradient: 'gradient 8s linear infinite',
-         bottom: 'star-movement-bottom linear infinite alternate',
-         top: 'star-movement-top linear infinite alternate',
+         bottom: 'bottom linear infinite alternate',
+         top: 'top linear infinite alternate',
    
        },
      },
