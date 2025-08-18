@@ -7,7 +7,7 @@ export default function Home() {
     <div className="relative h-1/3">
       <StarBorder
         as="button"
-        className="animate-star-movement-bottom animate-star-movement-top"
+        className="animate-star-movement-top animate-star-movement-bottom "
         color="cyan"
         speed="5s"
       >
