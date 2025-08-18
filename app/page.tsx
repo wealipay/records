@@ -19,12 +19,7 @@ export default function Home() {
       />
 
       <Number />
-      <StarBorder
-        as="button"
-        className="animate-top animate-bottom "
-        color="white"
-        speed="5s"
-      >
+      <StarBorder as="button" className="m-48" color="white" speed="5s">
         联系球
       </StarBorder>
     </div>
